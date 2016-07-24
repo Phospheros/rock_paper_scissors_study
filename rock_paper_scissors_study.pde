@@ -13,14 +13,6 @@ if (contestant1 == contestant2) println("Tie");
 else if (((3 + contestant1 - contestant2) % 3) == 1) println(str1 + " beats " + str2);
 else println(str1 + " loses to " + str2);
 
-//// Rock/Scissors 0, 2 special case:
-//else if (abs(contestant1 - contestant2) == 2) {
-//  if (contestant1 < contestant2) println(str1 + " beats " + str2);
-//  else println(str1 + " loses to " + str2);
-//// Normal cases:
-//} else if (contestant1 > contestant2) println (str1 + " beats " + str2);
-//else println(str1 + " loses to " + str2);  
-
 exit();
 
 /*
